@@ -16,6 +16,7 @@ All git commands start with git
 git is used with cli commands
 
 
+https://quickref.me/git
 
 --------------------------------*/
 
@@ -28,9 +29,6 @@ Note master is falling out of favour so use main for the main branch.
 
 Naming Conventions
 All lowercase, words are seperated by a dash -
-
-
-
 
 
 
@@ -52,8 +50,6 @@ git config --global user.email myEmail@domain.com
 
 Set Default Branch
 git config --global init.defaultbranch main
-
-
 
 
 
@@ -162,8 +158,6 @@ git reflog
 
 
 
-
-
 /*----------------------------------------------------------------------*/ 
 //Branches Basics
 Keep branch names specific
@@ -171,12 +165,12 @@ Keep branch names specific
 
 
 
-See Branches Remote
+See Names of Repositories You've Created
 git remote
 
-See Branches and More
+See Names of Repositories You've Created and URLs
 git remote -v 
-V means verbose
+v means verbose
 
 
 List All Branches
@@ -190,7 +184,7 @@ List All Branches Including ID and Commit Messages
 git branch -v
 
 Create a Branch
-git swtich -c newBranch
+git switch -c newBranch
 
 Old Way to Create a Branch
 git checkout -b newBranch
@@ -254,7 +248,14 @@ git show token
 
 
 /*----------------------------------------------------------------------*/ 
-//Basics
+//Clearing a git Repo
+
+
+If we Need to Restart and get rid of all git files
+Easiest way to do this is start at the beginning.
+Go to the main directory and run this code.
+rm -r repoName/.git/
+
 
 
 

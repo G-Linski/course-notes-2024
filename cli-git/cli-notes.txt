@@ -17,11 +17,10 @@ All git commands start with git
 git is used with cli commands
 
 
+https://quickref.me/
+
 
 --------------------------------*/
-
-
-
 
 
 
@@ -40,7 +39,7 @@ Lists all the files in the current directory
 ls -a
 Lists all the files in the current directory and hidden files
 
-ls - l
+ls -l
 List all the files in the current directory, plus permissions, date modified
 
 ls -R
@@ -87,7 +86,7 @@ cd /
 
 Move to Home Directory
 cd
-cd` doesn't work
+cd ~
 
 
 See Kernal
@@ -174,6 +173,8 @@ mv fileName newName
 
 /*----------------------------------------------------------------------*/ 
 //Permissions
+https://quickref.me/chmod
+
 
 Permissions in Windows are Listed as rwx
 Read, Write, Execute
@@ -289,9 +290,12 @@ sort list.txt
 
 /*----------------------------------------------------------------------*/ 
 //Global Regular Expression Print, grep
+https://quickref.me/grep
+
+
 
 grep
-Used to find files based on a pattern
+Used to find files or content based on a pattern
 grep [options] patterns [file]
 
 
@@ -299,6 +303,7 @@ Options
 ? means optional
 . means all
 * wildcard marker
+-w Search for the word
 -i case insensitive search
 
 head
@@ -328,13 +333,8 @@ Note this can have problems with newlines.
 As in the last item may not have a newline, making it different.
 
 
-
-
 Counting the Occurence of a Word
 grep -io 'word' file.txt | wc -l
-
-
-
 
 
 
@@ -342,9 +342,20 @@ grep -io 'word' file.txt | wc -l
 /*----------------------------------------------------------------------*/ 
 //Find
 
+Find is more so for finding file types than what's in a file
+find [path] [options] [expression]
+https://www.geeksforgeeks.org/find-command-in-linux-with-examples/
+Cheat Sheet
+https://quickref.me/find.html
 
 
 
+Example
+find /dir1/ -i -type f -name "*.txt"
+So this looks in the path dir1
+Type of is a file
+Name ends in .txt
+* is a wildcard of any amount.
 
 
 
