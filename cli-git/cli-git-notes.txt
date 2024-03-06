@@ -1,0 +1,202 @@
+
+/*--------------------------------
+Command Line Interface and Git Commands
+
+Written in JavaScript like text for no real reason other than consistency
+
+Git Bash
+Can be used instead of the powershell
+Swap using the arrow next to the plus sign at the bottom right.
+Or just set it to default
+Remember to cd to the correct directory.
+
+
+git Commands
+As you may realize git requires git to be installed
+All git commands start with git
+git is used with cli commands
+
+
+
+--------------------------------*/
+
+
+
+
+
+
+/*----------------------------------------------------------------------*/ 
+//Basics
+
+
+
+
+/*----------------------------------------------------------------------*/ 
+//Listing Files in a Directory
+
+ls
+Lists all the files in the current directory
+
+ls -a
+Lists all the files in the current directory and hidden files
+
+ls - l
+List all the files in the current directory, plus permissions, date modified
+
+ls -R
+List all files in all subdirectories
+R stands for recursion.
+
+Can combine options
+ls -la
+Lists all files plus hidden plus permissions and date modified
+
+
+
+
+
+/*----------------------------------------------------------------------*/ 
+//Navigating Directories
+
+
+Change Directories
+cd DirectoryName
+
+
+Go Up a Directory
+cd ..
+
+
+Print Where We are
+pwd
+Print working directory
+
+
+Working with Files with Spaces in their Name
+Easiest method is to put the file name in single quotes.
+cd 'Tools and Automation'
+Or
+Use \ Before a Space
+cd 'Tools\ and\ Automation
+Doesn't seem to work...
+
+
+Move to the Root Directory
+cd /
+
+
+Move to Home Directory
+cd
+cd` doesn't work
+
+
+See Kernal
+uname -a
+
+See Date
+date
+
+
+See Calendar and Current Day
+cal 
+Doesn't work in windows
+
+
+Show User/Owner
+whoami
+
+
+See Help Manual
+help 
+man - doesn't work in windows
+
+
+
+
+/*----------------------------------------------------------------------*/ 
+//Directories
+
+
+Creating a New Directory
+mkdir directoryName
+
+
+Make a new File in a Directory
+mkdir newDirectory/newFile.ext
+
+
+Note on Making Directories and Files
+The first part is the command
+Then the pathway ending with the file
+If the pathway doesn't exist it will be created
+
+
+Make Multiple Files in One Line
+mkdir newDirectory/newFile.ext secondDirectory ThirdDirectory/SubDirectory/newFile.ext
+
+
+Creating Files
+touch file.ext
+
+Creating Files with Path
+touch ../dir2/dir3/file.ext
+In this example we go up a directory from where we currently are
+Then into dir2 then dir3 and create the file
+
+
+Removing Empty Directories
+rmdir 
+rm -d
+
+
+Removing Directories
+rm -r directoryName
+
+
+Combining Commands in one Line
+commandOne && commandTwo
+Not a great idea
+Probably best to do one command at a time
+Example:
+cd ../dir1 && ls -l && cd ..
+
+
+
+
+/*----------------------------------------------------------------------*/ 
+//Permissions
+
+Permissions in Windows are Listed as rwx
+Read, Write, Execute
+They are given in the order of ugo
+User, group, other
+Example: -rw-r--r-- 1 g_lin 197609   68 Feb 29 09:21 tasks.txt
+So I have read and write permission.
+Group and other only have read permission.
+
+
+
+/*----------------------------------------------------------------------*/ 
+//Other
+
+Creating Hidden Files
+Use a . before the name
+Example: .hidden.txt
+
+
+
+
+
+
+/*----------------------------------------------------------------------*/ 
+//Creating Arrays
+
+
+/*----------------------------------------------------------------------*/ 
+//Creating Arrays
+
+
+/*----------------------------------------------------------------------*/ 
+//Creating Arrays
+
+
