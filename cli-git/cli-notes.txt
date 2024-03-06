@@ -1,6 +1,6 @@
 
 /*--------------------------------
-Command Line Interface and Git Commands
+Command Line Interface
 
 Written in JavaScript like text for no real reason other than consistency
 
@@ -162,6 +162,15 @@ cd ../dir1 && ls -l && cd ..
 
 
 
+Moving a File
+mv fileName /Path
+
+
+Change File Name
+mv fileName newName
+
+
+
 
 /*----------------------------------------------------------------------*/ 
 //Permissions
@@ -173,6 +182,59 @@ User, group, other
 Example: -rw-r--r-- 1 g_lin 197609   68 Feb 29 09:21 tasks.txt
 So I have read and write permission.
 Group and other only have read permission.
+
+
+Changing Permissions
+chmod
+Called change mode 
+The owner of a file can change permissions for users, group and others.
+Differences exist between operating systems.
+There are two ways to change permissions.
+Symbolic and Absolute
+
+
+ugoa
+User, Group, Other, All
+This is how permissions are ordered.
+
+rwx
+Read, Write Execute
+Access Types
+
+Operators for Permissions
++ add
+- remove
+= set
+
+
+Symbolic Method for Changing Permissions
+Uses letters
+acccessClass-operator-accessType
+Access Classes are: u g o a
+Operators are: + - =
+Access types are: r w x
+
+
+Symbolic Method Example
+chmod go+w list.txt
+This adds the write permission to list.txt for groups and other.
+
+
+Absolute Method for Changing Permissions
+Uses numbers and Order of ugo
+Add numbers to combine permission types
+Read 4
+Write 2
+Execute 1
+None 0
+
+
+Absolute Method Example
+chmod 741 list.txt
+This adds read, write and execute to user
+Read to group
+Execute to other
+
 
 
 
@@ -189,14 +251,122 @@ Example: .hidden.txt
 
 
 /*----------------------------------------------------------------------*/ 
-//Creating Arrays
+//Accesing Files and Such
+
+
+Wrting Content to a File
+echo 'text' > file.ext
+
+
+Writing Content to a File in another Directory
+echo 'text' > /dir1/dir2/file.ext
+
+
+Appending to a File
+echo 'text' >> file.ext
+
+
+List the Content of a File
+cat list.txt
+Stands for concatenate
+
+
+List the Content of a File in Reverse
+tac list.txt
+It's just cat backwards
+
+
+Show Amount of Lines, Words and Characters in a Document
+wc list.txt
+Lines start at 0
+Special characters like newline and such are characters
+
+
+Sort a File and List it
+sort list.txt
+
+
+
+/*----------------------------------------------------------------------*/ 
+//Global Regular Expression Print, grep
+
+grep
+Used to find files based on a pattern
+grep [options] patterns [file]
+
+
+Options 
+? means optional
+. means all
+* wildcard marker
+-i case insensitive search
+
+head
+Lists the first 10 items in a file.
+
+Tail
+Lists the last 10 items in a file.
+
+
+Pipeline of Commands
+| pipe, allows use to use two or more commands.
+Such that the output of one command is the input for the next.
+Examples:
+head fruits.txt | sort
+So the above takes the first 10 lines from fruits then sorts those 10
+head -20 fruits.txt | tail -10 | sort
+
+
+Example of grep:
+grep guava -i fruits.txt
+
+
+Get Unique Values
+uniq 
+cat fruits.txt | sort | uniq
+Note this can have problems with newlines.
+As in the last item may not have a newline, making it different.
+
+
+
+
+Counting the Occurence of a Word
+grep -io 'word' file.txt | wc -l
+
+
+
+
+
+
+
+/*----------------------------------------------------------------------*/ 
+//Find
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------------------------------*/ 
+//Deleting Files
+
+
+
+
+
+
+
 
 
 /*----------------------------------------------------------------------*/ 
 //Creating Arrays
 
 
+
+
+
 /*----------------------------------------------------------------------*/ 
 //Creating Arrays
-
-

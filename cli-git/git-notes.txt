@@ -1,0 +1,204 @@
+/*--------------------------------
+
+Git and GitHub
+
+
+Git Bash
+Must use Git Bash
+Swap using the arrow next to the plus sign at the bottom right.
+Or just set it to default
+Remember to cd to the correct directory.
+
+
+git Commands
+As you may realize git requires git to be installed
+All git commands start with git
+git is used with cli commands
+
+
+
+--------------------------------*/
+
+
+
+/*----------------------------------------------------------------------*/ 
+//Basics
+Note master is falling out of favour so use main for the main branch.
+
+
+Naming Conventions
+All lowercase, words are seperated by a dash -
+
+
+
+
+
+
+Quit
+Sometimes like in log or config we get stuck.
+To exit press q
+q
+
+
+
+See Git Configuration
+git config --list
+
+Set Username
+git config --global user.name myName
+
+Set Email
+git config --global user.email myEmail@domain.com
+
+Set Default Branch
+git config --global init.defaultbranch main
+
+
+
+
+
+/*----------------------------------------------------------------------*/ 
+//Repositories
+
+
+Repository
+A container for a project we want to track with git
+
+Creating a Repository
+git init folderName
+This will create a hidden .git folder in the project.
+
+See Repo Status
+git status
+Shows what has been staged, and what has changed.
+
+
+
+/*----------------------------------------------------------------------*/ 
+//Synching a Repo with GitHub
+
+Steps
+1) git init myProject
+2) cd myProject
+3) Create empty repo on GitHub, do not include README or anything else.
+4) All the info is listed on the new repo page.
+5) git remote add origin https://github.com/G-Linski/git-repo.git
+6) git add .
+7) git commit -m 'Inital commit'
+8) git push
+
+
+Afterwards we only need 3 commands to push content to GitHub
+1) git add .
+2) git commit -m 'Inital commit'
+3) git push
+
+
+
+
+/*----------------------------------------------------------------------*/ 
+//Staging, Commiting
+
+Stages of Commits
+Untracked: New files not yet added to be tracked
+Modified: Tracked files that have changed
+Staging: Files that have been added
+Committed: Files that are Committed
+
+
+Add to Staging Area 
+git add .
+Or
+git add fileName
+
+
+Commit Files
+git commit -m 'Message Here'
+Always include a short message about what you changed.
+
+
+Push Files to GitHub
+git push
+Pushes only files that have been first added then commited.
+
+
+Status of Current Branch
+git status
+
+
+Remove File from the Staging Area
+git -rm --cached fileName
+
+
+See Differences in Files
+git diff
+Scroll through using spacebar
+Green is new
+Red is deleted
+
+
+See Differences in a single File
+git diff fileName
+
+See Color Differnces in a Files
+git diff --color-words
+On windows it seems this is always done anyways
+
+
+
+
+
+/*----------------------------------------------------------------------*/ 
+//Log and Past 
+
+See Past Commits
+git log
+
+Smaller Version of Log
+git log --oneline
+
+History of Head Pointer
+git reflog
+
+
+
+
+
+/*----------------------------------------------------------------------*/ 
+//Branches Basics
+
+See Branches
+git remote
+
+See Branches and More
+git remote -v 
+V means verbose
+
+
+
+
+
+/*----------------------------------------------------------------------*/ 
+//Basics
+
+
+
+
+
+/*----------------------------------------------------------------------*/ 
+//Basics
+
+
+
+
+
+/*----------------------------------------------------------------------*/ 
+//Basics
+
+
+
+
+
+
+
+
