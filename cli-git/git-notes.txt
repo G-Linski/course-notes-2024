@@ -166,8 +166,12 @@ git reflog
 
 /*----------------------------------------------------------------------*/ 
 //Branches Basics
+Keep branch names specific
 
-See Branches
+
+
+
+See Branches Remote
 git remote
 
 See Branches and More
@@ -175,18 +179,75 @@ git remote -v
 V means verbose
 
 
+List All Branches
+git branch
+
+
+List All Branches Including Remote
+git branch -a
+
+List All Branches Including ID and Commit Messages
+git branch -v
+
+Create a Branch
+git swtich -c newBranch
+
+Old Way to Create a Branch
+git checkout -b newBranch
+
+
+Switching Between Branches
+git switch branchName
+Old way
+git checkout branchName
+
+
+Merge a Branch
+First go back to the main branch
+git merge branchName
+
+
+Deleting Unmerged Branch
+git branch -D branchName
+
+Deleting Merged Branch
+git branch -d branchName
+
+
 
 
 
 /*----------------------------------------------------------------------*/ 
-//Basics
+//README and Markdown
+
+The readme file is similar to HTML
+Both are markup langauages
+
+
+Headers
+# h1
+## h2
+### h3
+Remember to put a space between
+
+Markdown Preview
+Always install an extension to preview Markdown files
+Use control, shift, v to see preview
+
+
+
+
 
 
 
 
 
 /*----------------------------------------------------------------------*/ 
-//Basics
+//Other
+
+
+????
+git show token
 
 
 
