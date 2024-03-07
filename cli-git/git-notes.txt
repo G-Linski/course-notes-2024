@@ -260,7 +260,15 @@ rm -r repoName/.git/
 
 
 
+/*----------------------------------------------------------------------*/ 
+//Undoing Mistakes
 
+git checkout HEAD fileName
 
+git checkout -p fileName
 
+git reset --hard HEAD
 
+git reset --hard hash
+
+git checkout hash --fileName.ext

@@ -15,17 +15,50 @@
 ### []()
 
 
+## Coding Challenges
 
-## Cheat Sheets
+### [LeetCode]()
+
+### [HackerRank]()
+
+### [Project Euler]()
+
+### [Code Kattis]()
+
+### [CodeAbey]()
+
+
+## Reference
+
 ### [Cheat Sheets](https://quickref.me/)
 
+### [W3]()
 
+### [Dribbble]()
 
 ### Unix Terminal Online
 
 
+## Pictures and Icons
 
-### BitBucket
+### [Unsplash]()
+
+### []()
+
+
+
+Flaticons
+Font Awesome
+Template Monster
+Iconsdb
+
+
+
+
+
+## Fonts
+
+### [Google Fonts]()
 
 ### GitHub
 
