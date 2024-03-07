@@ -24,6 +24,11 @@
 
 ### [CodeAbbey](https://www.codeabbey.com/)
 
+### [100 Javascript Algorithm Challenge](https://github.com/PacktPublishing/100-JavaScript-Algorithm-Challenges)
+
+### [SQL Bolt](https://sqlbolt.com/)
+
+### [SQL Zoo](https://sqlzoo.net/wiki/SQL_Tutorial)
 
 ## Reference
 
@@ -31,14 +36,20 @@
 
 ### [W3](https://www.w3schools.com/)
 
+### [Mozilla Docs](https://developer.mozilla.org/en-US/)
+
 ### [Dribbble](https://dribbble.com/)
 
 ### [Online Unix Terminal](https://www.tutorialspoint.com/linux_terminal_online.php)
+
+### [JavaScript Algorithms](https://github.com/trekhleb/javascript-algorithms)
 
 
 ## Pictures, Fonts and Icons
 
 ### [Unsplash](https://unsplash.com/)
+
+### [Pixabay](https://pixabay.com/)
 
 ### [IconsDB](https://www.iconsdb.com/)
 
@@ -68,15 +79,36 @@
 ### [Replit](https://replit.com/)
 
 
+## CSS
+
+### [CSS Gradient - Creator](https://cssgradient.io/)
 
 
+## Converters
+
+### [Zamazr - Multiple Conversions](https://www.zamzar.com/)
+
+### [Markdown to PDF](https://md2pdf.netlify.app/)
+
+### [I Love PDF](https://www.ilovepdf.com/)
 
 
+## Presentations
+
+### [Prezi](https://prezi.com/)
+
+### [Canva](https://www.canva.com/)
 
 
+## Practice
 
+### [Exercism](https://exercism.org/users/sign_in)
 
+### [CodeCrafters](https://github.com/codecrafters-io/build-your-own-x)
 
+## Other
+
+### [10MinuteMail - Temporaray Mail](https://10minutemail.com/)
 
 
 
