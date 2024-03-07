@@ -166,9 +166,11 @@ Keep branch names specific
 
 
 See Names of Repositories You've Created
+For GitHub repos
 git remote
 
 See Names of Repositories You've Created and URLs
+Good for checking GitHub repos
 git remote -v 
 v means verbose
 

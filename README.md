@@ -1,68 +1,71 @@
 # Gabe's Course Notes
 
 
-
-
 # List of Helpful Sites
 
 ## Colors
+
 ### [ColorHexa](https://www.colorhexa.com/)
 
+### [Pick Color Online](https://pickcoloronline.com/)
 
 ### [Image Color Picker](https://imagecolorpicker.com/)
 
 
-### []()
-
-
 ## Coding Challenges
 
-### [LeetCode]()
+### [LeetCode](https://leetcode.com/)
 
-### [HackerRank]()
+### [HackerRank](https://www.hackerrank.com/)
 
-### [Project Euler]()
+### [Project Euler](https://projecteuler.net/archives)
 
-### [Code Kattis]()
+### [Code Kattis](https://open.kattis.com/)
 
-### [CodeAbey]()
+### [CodeAbbey](https://www.codeabbey.com/)
 
 
 ## Reference
 
 ### [Cheat Sheets](https://quickref.me/)
 
-### [W3]()
+### [W3](https://www.w3schools.com/)
 
-### [Dribbble]()
+### [Dribbble](https://dribbble.com/)
 
-### Unix Terminal Online
-
-
-## Pictures and Icons
-
-### [Unsplash]()
-
-### []()
+### [Online Unix Terminal](https://www.tutorialspoint.com/linux_terminal_online.php)
 
 
+## Pictures, Fonts and Icons
 
-Flaticons
-Font Awesome
-Template Monster
-Iconsdb
+### [Unsplash](https://unsplash.com/)
+
+### [IconsDB](https://www.iconsdb.com/)
+
+### [Looka - Logo Maker](https://looka.com/logo-maker/)
+
+### [Logo - Logo Maker](https://app.logo.com/login)
+
+### [Flaticons](https://www.flaticon.com/)
+
+### [UXWing - Icons](https://uxwing.com/)
+
+### [Icons8](https://icons8.com/icons)
+
+### [Font Awesome](https://fontawesome.com/)
+
+### [Google Fonts](https://fonts.google.com/)
 
 
+## Online Hosting Platforms etc...
 
+### [GitHub](https://github.com/)
 
+### [GitLab](https://about.gitlab.com/)
 
-## Fonts
+### [BitBucket](https://bitbucket.org/product)
 
-### [Google Fonts]()
-
-### GitHub
-
-### GitLab
+### [Replit](https://replit.com/)
 
 
 
