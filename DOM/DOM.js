@@ -80,6 +80,9 @@ const header = getElementById('header-1');
 const body = querySelector('body');
 const banner = querySelector('.banner');
 const text = querySelectorAll('p');
+const sectionByClass = document.querySelector('.section');
+const sectionById = document.querySelector('#section');
+const sectionByElementName = document.querySelector('section');
 const inputButton = querySelectorAll('input-btn');
 /*
 Note that getElemeentById requires an HTML element with an ID
@@ -94,6 +97,16 @@ And querySelectorAll selects all instances of that element or class
 
 /*----------------------------------------------------------------------*/ 
 //Event Listeners
+
+/*
+Used to launch a function if certain conditions are met
+Such as the page is loaded, something is clicked, etc...
+
+*/
+
+
+
+
 
 
 
@@ -147,27 +160,105 @@ onEvent('click',changeColor());
 //Class List
 //To Do/Understand
 
+/*
+We can use classList to add and remove classes from an element
+Good for night mode switching
+
+*/
+
+const message = document.getElementById('message');
+const button = document.querySelector('button');
+
+button.addEventListener('click',function(){
+  //This toggles adding the visible class to message.
+  message.classList.toggle('visible');
+  
+  //This determines what happens if the element has the class
+  if (message.classList.contains('visible')){
+    button.innerText = 'Hide message';
+  }
+  else{
+    button.innerText = 'Show message';
+  }
+
+});
+
+
+
 
 
 
 /*----------------------------------------------------------------------*/ 
 //This
 
+/*
+When inside an element
+Example:
+paragraphThree.addEventListener('click',function(){
+  this.style.color = '#f90';
+});
+
+We can use the word this
+Which can be used instead of the name of the element, ie) paragraphThree
+*/
+
+paragraphThree.addEventListener('click',function(){
+  this.style.color = '#f90';
+});
+
+
+/*----------------------------------------------------------------------*/ 
+//Adding Event Listeners to Multiple Elements
+/*
+Use querySelectorAll to store an array of the elements/class
+Then we can use foreEach and a function to addEventListeners to 
+everything in the array.
+*/
+
+const list = document.querySelectorAll('li');
+//const list = [...document.querySelector('li')];
+
+list.forEach(item => {
+  item.addEventListener('click',function(){
+    alert(`My name is ${this.innerText}`);
+  })
+})
 
 
 
 /*----------------------------------------------------------------------*/ 
-//Function Basics
+//Adding HTML elements 
+
+/*
+We can create HTML elements in various ways.
+But the easiest two are use createElement
+Or just write out the element in a string and store it
+
+*/
+
+const divOne = document.querySelector('.one');
+
+
+//Adding Paragraph
+let paraOne = '<p>Check out my latest review</p>';
+divOne.innerHTML = paraOne;
+
+const paraTwo = document.createElement('p');
+divOne.innerHTML = paraTwo;
+//Now we have a p in paraTwo and can change the innerText
+paraTwo.innerText = 'Check out my latest review';
+
+
 
 
 
 /*----------------------------------------------------------------------*/ 
-//Function Basics
+//Forms and DOM
 
-
-
-/*----------------------------------------------------------------------*/ 
-//Function Basics
+//Obtaining values from a text input
+//Assuming .guess is a class for a text input
+const guess = document.querySelector('.guess');
+let userGuess = parseInt(guess.value);
 
 
 /*----------------------------------------------------------------------*/ 

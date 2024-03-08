@@ -44,6 +44,14 @@ a = Math.max(1,2,3,4,5,6,7,8,9);
 a = Math.random()
 
 
+//Generate a Random Number Between max and min
+let answer = (Math.floor(Math.random()*100))+1;
+
+
+
+
+
+
 
 
 
