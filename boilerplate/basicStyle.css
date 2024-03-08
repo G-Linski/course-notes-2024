@@ -1,0 +1,55 @@
+
+@charset "utf-8";
+
+
+:root{
+  --background-dark: rgb(24,23,32);
+  --font-text: rgb(255, 255, 255);
+  --box-width: 360px;
+}
+
+.container {
+  width: min(100% - 30px, 1080px);
+  margin-inline: auto;
+}
+
+body {
+  background-color: var(--background-dark);
+  font-family: "Open Sans", sans-serif,'Arial','Helvetica';
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/*------------------------------------------*/
+/*              Display                     */
+/*------------------------------------------*/
+
+
+/*------------------------------------------*/
+/*              Utility                     */
+/*------------------------------------------*/
+
+
+.space-around {
+  justify-content: space-around;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+}
+
+.center {
+  align-content: center;
+}
+
+
