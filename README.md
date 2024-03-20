@@ -51,6 +51,8 @@
 
 ### [Pixabay](https://pixabay.com/)
 
+### [IconFinder](https://www.iconfinder.com/)
+
 ### [IconsDB](https://www.iconsdb.com/)
 
 ### [Looka - Logo Maker](https://looka.com/logo-maker/)
